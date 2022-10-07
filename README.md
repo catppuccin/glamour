@@ -30,7 +30,8 @@
 | glow               | [Glow](https://github.com/Dukeatron/glamour.git)  |
 | meteor             | [meteor](https://github.com/odpf/meteor)          |
 | glab               | [glab](https://github.com/profclems/glab)         |
-| GitHub CLI         | [Ghub CLI](https://github.com/cli/cli)            |
+| GitHub CLI         | [Github CLI](https://github.com/cli/cli)          |
+| FM (File Manager)  | [FM](https://github.com/knipferrc/fm)             |
 
 
 > If you find any more applications that support Glamour, feel free to open an issue or PR!

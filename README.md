@@ -17,10 +17,10 @@
 
 ## Usage
 
-1. Clone this repository into a desired directory
-2. Pick a flavour of your choice and move it into another desired directory
-3. You can now easily use it in a supported program. Some supported programs are provided [here](https://github.com/catppuccin/glamour#supported-programs)
-4. Follow the desired program's theme usage documentation to use it
+1. Clone this repository to a desired directory
+2. Pick a flavour of your choice
+3. Read the documentation for the program in which you want to use the theme in
+4. Enjoy!
 
 ## Supported Programs
 
@@ -32,13 +32,14 @@
 | glab               | [glab](https://github.com/profclems/glab)         |
 | GitHub CLI         | [Ghub CLI](https://github.com/cli/cli)            |
 
+
 > If you find any more applications that support Glamour, feel free to open an issue or PR!
 
 ## FAQ
 
 > How to use it in said app?
 
-Follow the program's documentation to know how to use these files.
+Follow the desired program's documentation for a guide on how to use the theme.
 
 ## 💝 Thanks to
 

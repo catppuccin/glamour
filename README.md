@@ -40,11 +40,17 @@
 
 > How to use it in said app?
 
-Follow the desired program's documentation for a guide on how to use the theme.
+Follow the desired program's docs to use this theme.
+
+## TODO
+
+- [ ] Replace current screenshote with a better one
+- [ ] Get syntax highlighting
 
 ## 💝 Thanks to
 
 - [Dukeatron](https://github.com/Dukeatron)
+- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 

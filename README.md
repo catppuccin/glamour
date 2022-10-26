@@ -26,8 +26,8 @@
 
 | Program            |                                              Link |
 | -------------------|---------------------------------------------------|
-| slides             | [slides](https://github.com/Dukeatron/glamour.git)|
-| glow               | [Glow](https://github.com/Dukeatron/glamour.git)  |
+| slides             | [slides](https://github.com/maaslalani/slides)    |
+| glow               | [Glow](https://github.com/charmbracelet/glow)     |
 | meteor             | [meteor](https://github.com/odpf/meteor)          |
 | glab               | [glab](https://gitlab.com/gitlab-org/cli)         |
 | GitHub CLI         | [Github CLI](https://github.com/cli/cli)          |

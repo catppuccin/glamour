@@ -44,8 +44,8 @@ Follow the desired program's docs to use this theme.
 
 ## TODO
 
-- [ ] Replace current screenshote with a better one
-- [ ] Get syntax highlighting
+- [ ] Replace current screenshot with a better one
+- [ ] Integrate syntax highlighting
 
 ## 💝 Thanks to
 

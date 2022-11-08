@@ -40,7 +40,7 @@
 
 > How to use it in said app?
 
-Follow the desired program's docs to use this theme.
+Follow the desired program's docs to use this theme within the program.
 
 ## TODO
 

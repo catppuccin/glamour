@@ -87,7 +87,7 @@
     "prefix": " ",
     "suffix": " ",
     "color": "#ee99a0",
-    "background_color": "#24273a"
+    "background_color": "#1e2030"
   },
   "code_block": {
     "theme": "dracula",

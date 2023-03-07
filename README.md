@@ -51,6 +51,7 @@ Follow the desired program's docs to use this theme within the program.
 
 - [Dukeatron](https://github.com/Dukeatron)
 - [justTOBBI](https://github.com/justTOBBI)
+- [extremepayne](https://github.com/extremepayne)
 
 &nbsp;
 

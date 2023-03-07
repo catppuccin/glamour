@@ -15,7 +15,7 @@
 	},
 	"heading": {
 	  "block_suffix": "\n",
-	  "color": "39",
+	  "color": "#4c4f69",
 	  "bold": true
 	},
 	"h1": {
@@ -57,7 +57,7 @@
 	  "bold": true
 	},
 	"hr": {
-	  "color": "240",
+	  "color": "#9ca0b0",
 	  "format": "\n--------\n"
 	},
 	"item": {
@@ -71,7 +71,7 @@
 	  "unticked": "[ ] "
 	},
 	"link": {
-	  "color": "30",
+	  "color": "#dc8a78",
 	  "underline": true
 	},
 	"link_text": {
@@ -79,17 +79,17 @@
 	  "bold": true
 	},
 	"image": {
-	  "color": "212",
+	  "color": "#dc8a78",
 	  "underline": true
 	},
 	"image_text": {
-	  "color": "243",
+	  "color": "#ea76cb",
 	  "format": "Image: {{.text}} →"
 	},
 	"code": {
 	  "prefix": " ",
 	  "suffix": " ",
-	  "color": "203",
+	  "color": "#e64553",
 	  "background_color": "#eff1f5"
 	},
 	"code_block": {

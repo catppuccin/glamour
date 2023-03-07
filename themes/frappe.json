@@ -44,9 +44,6 @@
 	  "color": "#e5c890",
 	  "prefix": "░░░░░ "
 	},
-	"text": {
-	  "color": "fffff"
-	},
 	"strikethrough": {
 	  "crossed_out": true
 	},

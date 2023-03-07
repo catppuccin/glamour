@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Dukeatron/glamour/main/assets/res.webp"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/glamour/main/assets/res.webp"/>
 </p>
 
 ## Usage
@@ -51,6 +51,7 @@ Follow the desired program's docs to use this theme within the program.
 
 - [Dukeatron](https://github.com/Dukeatron)
 - [justTOBBI](https://github.com/justTOBBI)
+- [extremepayne](https://github.com/extremepayne)
 
 &nbsp;
 

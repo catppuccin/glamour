@@ -24,28 +24,14 @@
 
 ## Supported Programs
 
-| Program            |                                              Link |
-| -------------------|---------------------------------------------------|
-| slides             | [slides](https://github.com/maaslalani/slides)    |
-| glow               | [Glow](https://github.com/charmbracelet/glow)     |
-| meteor             | [meteor](https://github.com/odpf/meteor)          |
-| glab               | [glab](https://gitlab.com/gitlab-org/cli)         |
-| GitHub CLI         | [Github CLI](https://github.com/cli/cli)          |
-| FM (File Manager)  | [FM](https://github.com/knipferrc/fm)             |
-
-
 > If you find any more applications that support Glamour, feel free to open an issue or PR!
 
-## FAQ
-
-> How to use it in said app?
-
-Follow the desired program's docs to use this theme within the program.
-
-## TODO
-
-- [ ] Replace current screenshot with a better one
-- [ ] Integrate syntax highlighting
+- [slides](https://github.com/maaslalani/slides)
+- [glow](https://github.com/charmbracelet/glow)
+- [meteor](https://github.com/odpf/meteor)
+- [glab](https://gitlab.com/gitlab-org/cli)
+- [fm](https://github.com/knipferrc/fm)
+- [GitHub CLI](https://github.com/cli/cli)
 
 ## 💝 Thanks to
 

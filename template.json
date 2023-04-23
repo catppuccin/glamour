@@ -2,7 +2,7 @@
   "document": {
     "block_prefix": "\n",
     "block_suffix": "\n",
-    "color": "#cdd6f4",
+    "color": "$text",
     "margin": 2
   },
   "block_quote": {
@@ -15,34 +15,34 @@
   },
   "heading": {
     "block_suffix": "\n",
-    "color": "#cdd6f4",
+    "color": "$text",
     "bold": true
   },
   "h1": {
     "prefix": "▓▓▓ ",
     "suffix": " ",
-    "color": "#f38ba8",
+    "color": "$red",
     "bold": true
   },
   "h2": {
     "prefix": "▓▓▓▓ ",
-    "color": "#fab387"
+    "color": "$peach"
   },
   "h3": {
     "prefix": "▓▓▓▓▓ ",
-    "color": "#f9e2af"
+    "color": "$yellow"
   },
   "h4": {
     "prefix": "▓▓▓▓▓▓ ",
-    "color": "#a6e3a1"
+    "color": "$green"
   },
   "h5": {
     "prefix": "▓▓▓▓▓▓▓ ",
-    "color": "#74c7ec"
+    "color": "$sapphire"
   },
   "h6": {
     "prefix": "▓▓▓▓▓▓▓▓ ",
-    "color": "#b4befe"
+    "color": "$lavender"
   },
   "text": {},
   "strikethrough": {
@@ -55,7 +55,7 @@
     "bold": true
   },
   "hr": {
-    "color": "#6c7086",
+    "color": "$overlay0",
     "format": "\n--------\n"
   },
   "item": {
@@ -69,29 +69,29 @@
     "unticked": "[ ] "
   },
   "link": {
-    "color": "#89b4fa",
+    "color": "$blue",
     "underline": true
   },
   "link_text": {
-    "color": "#b4befe",
+    "color": "$lavender",
     "bold": true
   },
   "image": {
-    "color": "#89b4fa",
+    "color": "$blue",
     "underline": true
   },
   "image_text": {
-    "color": "#b4befe",
+    "color": "$lavender",
     "format": "Image: {{.text}} →"
   },
   "code": {
     "prefix": " ",
     "suffix": " ",
-    "color": "#eba0ac",
-    "background_color": "#181825"
+    "color": "$maroon",
+    "background_color": "$mantle"
   },
   "code_block": {
-    "color": "#181825",
+    "color": "$mantle",
     "margin": 2
   },
   "table": {

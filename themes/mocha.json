@@ -92,7 +92,97 @@
   },
   "code_block": {
     "color": "#181825",
-    "margin": 2
+    "margin": 2,
+    "chroma": {
+      "text": {
+        "color": "#cdd6f4"
+      },
+      "error": {
+        "color": "#cdd6f4",
+        "background_color": "#f38ba8"
+      },
+      "comment": {
+        "color": "#6c7086"
+      },
+      "comment_preproc": {
+        "color": "#89b4fa"
+      },
+      "keyword": {
+        "color": "#cba6f7"
+      },
+      "keyword_reserved": {
+        "color": "#cba6f7"
+      },
+      "keyword_namespace": {
+        "color": "#f9e2af"
+      },
+      "keyword_type": {
+        "color": "#f9e2af"
+      },
+      "operator": {
+        "color": "#89dceb"
+      },
+      "punctuation": {
+        "color": "#9399b2"
+      },
+      "name": {
+        "color": "#b4befe"
+      },
+      "name_builtin": {
+        "color": "#fab387"
+      },
+      "name_tag": {
+        "color": "#cba6f7"
+      },
+      "name_attribute": {
+        "color": "#f9e2af"
+      },
+      "name_class": {
+        "color": "#f9e2af"
+      },
+      "name_constant": {
+        "color": "#f9e2af"
+      },
+      "name_decorator": {
+        "color": "#f5c2e7"
+      },
+      "name_exception": {},
+      "name_function": {
+        "color": "#89b4fa"
+      },
+      "name_other": {},
+      "literal": {},
+      "literal_number": {
+        "color": "#fab387"
+      },
+      "literal_date": {},
+      "literal_string": {
+        "color": "#a6e3a1"
+      },
+      "literal_string_escape": {
+        "color": "#f5c2e7"
+      },
+      "generic_deleted": {
+        "color": "#f38ba8"
+      },
+      "generic_emph": {
+        "color": "#cdd6f4",
+        "italic": true
+      },
+      "generic_inserted": {
+        "color": "#a6e3a1"
+      },
+      "generic_strong": {
+        "color": "#cdd6f4",
+        "bold": true
+      },
+      "generic_subheading": {
+        "color": "#89dceb"
+      },
+      "background": {
+        "background_color": "#181825"
+      }
+    }
   },
   "table": {
     "center_separator": "┼",

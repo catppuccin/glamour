@@ -1,11 +1,10 @@
-import os
 from dataclasses import fields
 from pathlib import Path
 from string import Template
 
 from catppuccin import Flavour
 
-OUT_DIR = Path("themes")
+OUT_DIR = Path("build")
 OUT_DIR.mkdir(exist_ok=True)
 TEMPLATE_STR = Path("src/template.json").read_text()
 

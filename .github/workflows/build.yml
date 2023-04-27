@@ -1,6 +1,6 @@
 name: Build
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   push:
     paths:
       - "src/**/*.py"

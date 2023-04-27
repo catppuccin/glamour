@@ -4,19 +4,23 @@ on:
     tags:
       - "v*"
 
-steps:
-  - uses: actions/checkout@v3
-  - uses: actions/setup-python@v4
-    with:
-      python-version: '3.10'
-      cache: 'pip' # caching pip dependencies
-  - run: pip install -r requirements.txt
-  - run: python src/generate.py
-  - name: Create Release
-    uses: softprops/action-gh-release@v1
-    with:
-      files: |
-        ./build/latte.json
-        ./build/frappe.json
-        ./build/macchiato.json
-        ./build/mocha.json
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r requirements.txt
+      - run: python src/generate.py
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ./build/latte.json
+            ./build/frappe.json
+            ./build/macchiato.json
+            ./build/mocha.json

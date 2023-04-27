@@ -52,6 +52,11 @@
 - [fm](https://github.com/knipferrc/fm)
 - [GitHub CLI](https://github.com/cli/cli)
 
+## 👐 Contributing
+
+To create the json files run `python src/generate.py`.
+You may need to run `pip install -r reqirements.txt` ig you don't already have all the dependencies installed.
+
 ## 💝 Thanks to
 
 - [Dukeatron](https://github.com/Dukeatron)

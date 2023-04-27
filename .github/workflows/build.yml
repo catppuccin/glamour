@@ -1,0 +1,21 @@
+name: Build
+on:
+  workflow-dispatch:
+  push:
+    paths:
+      - "src/**/*.py"
+      - "src/template.json"
+      - "requirements.txt"
+
+steps:
+  - uses: actions/checkout@v3
+  - uses: actions/setup-python@v4
+    with:
+      python-version: '3.10'
+      cache: 'pip' # caching pip dependencies
+  - run: pip install -r requirements.txt
+  - run: python src/generate.py
+  - name: Upload Artifacts
+    uses: actions/upload-artifact@v3
+    with:
+      path: build/*.json

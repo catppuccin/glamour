@@ -54,8 +54,8 @@
 
 ## 👐 Contributing
 
-To create the json files run `python src/generate.py`.
-You may need to run `pip install -r reqirements.txt` ig you don't already have all the dependencies installed.
+1. Install requirements via `pip install -r requirements.txt`
+2. Generate the JSON files via `python src/generate.py`
 
 ## 💝 Thanks to
 

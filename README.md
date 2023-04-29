@@ -36,14 +36,16 @@
 
 ## Usage
 
-1. Clone this repository to a desired directory
-2. Pick a flavour of your choice
-3. Read the documentation for the program in which you want to use the theme in
-4. Enjoy!
+1. Download your preferred flavor from the
+   [latest release](https://github.com/catppuccin/glamour/releases/latest) or
+   from the latest [build](https://github.com/catppuccin/glamour).
+2. Read the documentation for the program that you'd like to use the theme for.
+3. Enjoy!
 
 ## Supported Programs
 
-> If you find any more applications that support Glamour, feel free to open an issue or PR!
+> If you find any more applications that support Glamour, feel free to open an
+> issue or PR!
 
 - [slides](https://github.com/maaslalani/slides)
 - [glow](https://github.com/charmbracelet/glow)
@@ -55,7 +57,8 @@
 ## 👐 Contributing
 
 1. Install requirements via `pip install -r requirements.txt`
-2. Generate the JSON files via `python src/generate.py`
+2. Generate the JSON files via `python src/generate.py`. The files will be
+   generated under the `build/` directory.
 
 ## 💝 Thanks to
 

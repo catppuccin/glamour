@@ -1,0 +1,199 @@
+{
+  "document": {
+    "block_prefix": "\n",
+    "block_suffix": "\n",
+    "color": "$text",
+    "margin": 2
+  },
+  "block_quote": {
+    "indent": 1,
+    "indent_token": "│ "
+  },
+  "paragraph": {},
+  "list": {
+    "level_indent": 2
+  },
+  "heading": {
+    "block_suffix": "\n",
+    "color": "$text",
+    "bold": true
+  },
+  "h1": {
+    "prefix": "▓▓▓ ",
+    "suffix": " ",
+    "color": "$red",
+    "bold": true
+  },
+  "h2": {
+    "prefix": "▓▓▓▓ ",
+    "color": "$peach"
+  },
+  "h3": {
+    "prefix": "▓▓▓▓▓ ",
+    "color": "$yellow"
+  },
+  "h4": {
+    "prefix": "▓▓▓▓▓▓ ",
+    "color": "$green"
+  },
+  "h5": {
+    "prefix": "▓▓▓▓▓▓▓ ",
+    "color": "$sapphire"
+  },
+  "h6": {
+    "prefix": "▓▓▓▓▓▓▓▓ ",
+    "color": "$lavender"
+  },
+  "text": {},
+  "strikethrough": {
+    "crossed_out": true
+  },
+  "emph": {
+    "italic": true
+  },
+  "strong": {
+    "bold": true
+  },
+  "hr": {
+    "color": "$overlay0",
+    "format": "\n--------\n"
+  },
+  "item": {
+    "block_prefix": "• "
+  },
+  "enumeration": {
+    "block_prefix": ". "
+  },
+  "task": {
+    "ticked": "[✓] ",
+    "unticked": "[ ] "
+  },
+  "link": {
+    "color": "$blue",
+    "underline": true
+  },
+  "link_text": {
+    "color": "$lavender",
+    "bold": true
+  },
+  "image": {
+    "color": "$blue",
+    "underline": true
+  },
+  "image_text": {
+    "color": "$lavender",
+    "format": "Image: {{.text}} →"
+  },
+  "code": {
+    "prefix": " ",
+    "suffix": " ",
+    "color": "$maroon",
+    "background_color": "$mantle"
+  },
+  "code_block": {
+    "color": "$mantle",
+    "margin": 2,
+    "chroma": {
+      "text": {
+        "color": "$text"
+      },
+      "error": {
+        "color": "$text",
+        "background_color": "$red"
+      },
+      "comment": {
+        "color": "$overlay0"
+      },
+      "comment_preproc": {
+        "color": "$blue"
+      },
+      "keyword": {
+        "color": "$mauve"
+      },
+      "keyword_reserved": {
+        "color": "$mauve"
+      },
+      "keyword_namespace": {
+        "color": "$yellow"
+      },
+      "keyword_type": {
+        "color": "$yellow"
+      },
+      "operator": {
+        "color": "$sky"
+      },
+      "punctuation": {
+        "color": "$overlay2"
+      },
+      "name": {
+        "color": "$lavender"
+      },
+      "name_builtin": {
+        "color": "$peach"
+      },
+      "name_tag": {
+        "color": "$mauve"
+      },
+      "name_attribute": {
+        "color": "$yellow"
+      },
+      "name_class": {
+        "color": "$yellow"
+      },
+      "name_constant": {
+        "color": "$yellow"
+      },
+      "name_decorator": {
+        "color": "$pink"
+      },
+      "name_exception": {},
+      "name_function": {
+        "color": "$blue"
+      },
+      "name_other": {},
+      "literal": {},
+      "literal_number": {
+        "color": "$peach"
+      },
+      "literal_date": {},
+      "literal_string": {
+        "color": "$green"
+      },
+      "literal_string_escape": {
+        "color": "$pink"
+      },
+      "generic_deleted": {
+        "color": "$red"
+      },
+      "generic_emph": {
+        "color": "$text",
+        "italic": true
+      },
+      "generic_inserted": {
+        "color": "$green"
+      },
+      "generic_strong": {
+        "color": "$text",
+        "bold": true
+      },
+      "generic_subheading": {
+        "color": "$sky"
+      },
+      "background": {
+        "background_color": "$mantle"
+      }
+    }
+  },
+  "table": {
+    "center_separator": "┼",
+    "column_separator": "│",
+    "row_separator": "─"
+  },
+  "definition_list": {},
+  "definition_term": {},
+  "definition_description": {
+    "block_prefix": "\n🠶 "
+  },
+  "html_block": {},
+  "html_span": {}
+}

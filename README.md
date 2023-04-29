@@ -12,40 +12,53 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/glamour/main/assets/res.webp"/>
+	<img src="/assets/res.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="assets/mocha.webp"/>
+</details>
 
 ## Usage
 
-1. Clone this repository to a desired directory
-2. Pick a flavour of your choice
-3. Read the documentation for the program in which you want to use the theme in
-4. Enjoy!
+1. Download your preferred flavor from the
+   [latest release](https://github.com/catppuccin/glamour/releases/latest) or
+   from the latest [build](https://github.com/catppuccin/glamour).
+2. Read the documentation for the program that you'd like to use the theme for.
+3. Enjoy!
 
 ## Supported Programs
 
-| Program            |                                              Link |
-| -------------------|---------------------------------------------------|
-| slides             | [slides](https://github.com/maaslalani/slides)    |
-| glow               | [Glow](https://github.com/charmbracelet/glow)     |
-| meteor             | [meteor](https://github.com/odpf/meteor)          |
-| glab               | [glab](https://gitlab.com/gitlab-org/cli)         |
-| GitHub CLI         | [Github CLI](https://github.com/cli/cli)          |
-| FM (File Manager)  | [FM](https://github.com/knipferrc/fm)             |
+> If you find any more applications that support Glamour, feel free to open an
+> issue or PR!
 
+- [slides](https://github.com/maaslalani/slides)
+- [glow](https://github.com/charmbracelet/glow)
+- [meteor](https://github.com/odpf/meteor)
+- [glab](https://gitlab.com/gitlab-org/cli)
+- [fm](https://github.com/knipferrc/fm)
+- [GitHub CLI](https://github.com/cli/cli)
 
-> If you find any more applications that support Glamour, feel free to open an issue or PR!
+## 👐 Contributing
 
-## FAQ
-
-> How to use it in said app?
-
-Follow the desired program's docs to use this theme within the program.
-
-## TODO
-
-- [ ] Replace current screenshot with a better one
-- [ ] Integrate syntax highlighting
+1. Install requirements via `pip install -r requirements.txt`
+2. Generate the JSON files via `python src/generate.py`. The files will be
+   generated under the `build/` directory.
 
 ## 💝 Thanks to
 

@@ -50,7 +50,6 @@
 - [slides](https://github.com/maaslalani/slides)
 - [glow](https://github.com/charmbracelet/glow)
 - [meteor](https://github.com/odpf/meteor)
-- [glab](https://gitlab.com/gitlab-org/cli)
 - [fm](https://github.com/knipferrc/fm)
 - [GitHub CLI](https://github.com/cli/cli)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)

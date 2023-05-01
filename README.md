@@ -53,6 +53,8 @@
 - [glab](https://gitlab.com/gitlab-org/cli)
 - [fm](https://github.com/knipferrc/fm)
 - [GitHub CLI](https://github.com/cli/cli)
+- [GitLab CLI](https://gitlab.com/gitlab-org/cli)
+- [Gitea CLI](https://gitea.com/gitea/tea)
 
 ## 👐 Contributing
 

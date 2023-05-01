@@ -38,7 +38,7 @@
 
 1. Download your preferred flavor from the
    [latest release](https://github.com/catppuccin/glamour/releases/latest) or
-   from the latest [build](https://github.com/catppuccin/glamour).
+   from the [latest build](https://github.com/catppuccin/glamour/actions/workflows/build.yml).
 2. Read the documentation for the program that you'd like to use the theme for.
 3. Enjoy!
 

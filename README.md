@@ -53,12 +53,6 @@ issue or PR!
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 - [Gitea CLI](https://gitea.com/gitea/tea)
 
-## 👐 Contributing
-
-1. Install requirements via `pip install -r requirements.txt`
-2. Generate the JSON files via `python src/generate.py`. The files will be
-   generated under the `build/` directory.
-
 ## 💝 Thanks to
 
 - [Dukeatron](https://github.com/Dukeatron)

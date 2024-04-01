@@ -1,8 +1,16 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+---
+{%- set palette = flavor.colors -%}
 {
   "document": {
     "block_prefix": "\n",
     "block_suffix": "\n",
-    "color": "$text",
+    "color": "#{{ palette.text.hex }}",
     "margin": 2
   },
   "block_quote": {
@@ -15,34 +23,34 @@
   },
   "heading": {
     "block_suffix": "\n",
-    "color": "$text",
+    "color": "#{{ palette.text.hex }}",
     "bold": true
   },
   "h1": {
     "prefix": "▓▓▓ ",
     "suffix": " ",
-    "color": "$red",
+    "color": "#{{ palette.red.hex }}",
     "bold": true
   },
   "h2": {
     "prefix": "▓▓▓▓ ",
-    "color": "$peach"
+    "color": "#{{ palette.peach.hex }}"
   },
   "h3": {
     "prefix": "▓▓▓▓▓ ",
-    "color": "$yellow"
+    "color": "#{{ palette.yellow.hex }}"
   },
   "h4": {
     "prefix": "▓▓▓▓▓▓ ",
-    "color": "$green"
+    "color": "#{{ palette.green.hex }}"
   },
   "h5": {
     "prefix": "▓▓▓▓▓▓▓ ",
-    "color": "$sapphire"
+    "color": "#{{ palette.sapphire.hex }}"
   },
   "h6": {
     "prefix": "▓▓▓▓▓▓▓▓ ",
-    "color": "$lavender"
+    "color": "#{{ palette.lavender.hex }}"
   },
   "text": {},
   "strikethrough": {
@@ -55,7 +63,7 @@
     "bold": true
   },
   "hr": {
-    "color": "$overlay0",
+    "color": "#{{ palette.overlay0.hex }}",
     "format": "\n--------\n"
   },
   "item": {
@@ -69,118 +77,118 @@
     "unticked": "[ ] "
   },
   "link": {
-    "color": "$blue",
+    "color": "#{{ palette.blue.hex }}",
     "underline": true
   },
   "link_text": {
-    "color": "$lavender",
+    "color": "#{{ palette.lavender.hex }}",
     "bold": true
   },
   "image": {
-    "color": "$blue",
+    "color": "#{{ palette.blue.hex }}",
     "underline": true
   },
   "image_text": {
-    "color": "$lavender",
-    "format": "Image: {{.text}} →"
+    "color": "#{{ palette.lavender.hex }}",
+    "format": "Image: {{ "{{.text}}" }} →"
   },
   "code": {
     "prefix": " ",
     "suffix": " ",
-    "color": "$maroon",
-    "background_color": "$mantle"
+    "color": "#{{ palette.maroon.hex }}",
+    "background_color": "#{{ palette.mantle.hex }}"
   },
   "code_block": {
-    "color": "$mantle",
+    "color": "#{{ palette.mantle.hex }}",
     "margin": 2,
     "chroma": {
       "text": {
-        "color": "$text"
+        "color": "#{{ palette.text.hex }}"
       },
       "error": {
-        "color": "$text",
-        "background_color": "$red"
+        "color": "#{{ palette.text.hex }}",
+        "background_color": "#{{ palette.red.hex }}"
       },
       "comment": {
-        "color": "$overlay0"
+        "color": "#{{ palette.overlay0.hex }}"
       },
       "comment_preproc": {
-        "color": "$blue"
+        "color": "#{{ palette.blue.hex }}"
       },
       "keyword": {
-        "color": "$mauve"
+        "color": "#{{ palette.mauve.hex }}"
       },
       "keyword_reserved": {
-        "color": "$mauve"
+        "color": "#{{ palette.mauve.hex }}"
       },
       "keyword_namespace": {
-        "color": "$yellow"
+        "color": "#{{ palette.yellow.hex }}"
       },
       "keyword_type": {
-        "color": "$yellow"
+        "color": "#{{ palette.yellow.hex }}"
       },
       "operator": {
-        "color": "$sky"
+        "color": "#{{ palette.sky.hex }}"
       },
       "punctuation": {
-        "color": "$overlay2"
+        "color": "#{{ palette.overlay2.hex }}"
       },
       "name": {
-        "color": "$lavender"
+        "color": "#{{ palette.lavender.hex }}"
       },
       "name_builtin": {
-        "color": "$peach"
+        "color": "#{{ palette.peach.hex }}"
       },
       "name_tag": {
-        "color": "$mauve"
+        "color": "#{{ palette.mauve.hex }}"
       },
       "name_attribute": {
-        "color": "$yellow"
+        "color": "#{{ palette.yellow.hex }}"
       },
       "name_class": {
-        "color": "$yellow"
+        "color": "#{{ palette.yellow.hex }}"
       },
       "name_constant": {
-        "color": "$yellow"
+        "color": "#{{ palette.yellow.hex }}"
       },
       "name_decorator": {
-        "color": "$pink"
+        "color": "#{{ palette.pink.hex }}"
       },
       "name_exception": {},
       "name_function": {
-        "color": "$blue"
+        "color": "#{{ palette.blue.hex }}"
       },
       "name_other": {},
       "literal": {},
       "literal_number": {
-        "color": "$peach"
+        "color": "#{{ palette.peach.hex }}"
       },
       "literal_date": {},
       "literal_string": {
-        "color": "$green"
+        "color": "#{{ palette.green.hex }}"
       },
       "literal_string_escape": {
-        "color": "$pink"
+        "color": "#{{ palette.pink.hex }}"
       },
       "generic_deleted": {
-        "color": "$red"
+        "color": "#{{ palette.red.hex }}"
       },
       "generic_emph": {
-        "color": "$text",
+        "color": "#{{ palette.text.hex }}",
         "italic": true
       },
       "generic_inserted": {
-        "color": "$green"
+        "color": "#{{ palette.green.hex }}"
       },
       "generic_strong": {
-        "color": "$text",
+        "color": "#{{ palette.text.hex }}",
         "bold": true
       },
       "generic_subheading": {
-        "color": "$sky"
+        "color": "#{{ palette.sky.hex }}"
       },
       "background": {
-        "background_color": "$mantle"
+        "background_color": "#{{ palette.mantle.hex }}"
       }
     }
   },

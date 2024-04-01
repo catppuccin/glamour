@@ -36,16 +36,14 @@
 
 ## Usage
 
-1. Download your preferred flavor from the
-   [latest release](https://github.com/catppuccin/glamour/releases/latest) or
-   from the [latest build](https://github.com/catppuccin/glamour/actions/workflows/build.yml).
+1. Download your preferred flavor from the [themes/](themes) directory.
 2. Read the documentation for the program that you'd like to use the theme for.
 3. Enjoy!
 
 ## Supported Programs
 
-> If you find any more applications that support Glamour, feel free to open an
-> issue or PR!
+If you find any more applications that support Glamour, feel free to open an
+issue or PR!
 
 - [slides](https://github.com/maaslalani/slides)
 - [glow](https://github.com/charmbracelet/glow)

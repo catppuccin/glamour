@@ -1,0 +1,15 @@
+name: whiskers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@feat/working-directory
+    with:
+      args: glamour.tera
+    secrets: inherit

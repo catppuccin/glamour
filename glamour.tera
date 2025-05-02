@@ -10,7 +10,6 @@ whiskers:
   "document": {
     "block_prefix": "\n",
     "block_suffix": "\n",
-    
     "color": "{{ text.hex }}",
     "margin": 2
   },
